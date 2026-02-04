@@ -14,7 +14,15 @@ YouTubeの広告を自動的にスキップするChrome拡張機能です。
 
 ## インストール方法
 
-### 1. リポジトリをクローン
+### 1. ダウンロード
+
+#### 方法A: ZIPダウンロード（Gitなしで可能）
+
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=for-the-badge&logo=github)](https://github.com/fuyuyu0111/Focus-View-Extension/archive/refs/heads/main.zip)
+
+↑ボタンをクリックでダウンロード後、解凍して使用してください。
+
+#### 方法B: git clone
 
 ```bash
 git clone https://github.com/fuyuyu0111/Focus-View-Extension.git
@@ -25,7 +33,7 @@ git clone https://github.com/fuyuyu0111/Focus-View-Extension.git
 1. Chromeで `chrome://extensions/` を開く
 2. 右上の「デベロッパーモード」をオンにする
 3. 「パッケージ化されていない拡張機能を読み込む」をクリック
-4. クローンしたフォルダを選択
+4. 解凍orクローンしたフォルダを選択
 
 ### 3. 確認
 
