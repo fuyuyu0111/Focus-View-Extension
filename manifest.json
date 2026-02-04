@@ -1,13 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Ad Speedup",
+  "name": "Focus View Extension",
   "version": "1.0.0",
-  "description": "YouTubeの広告を瞬間シークでスキップする",
+  "description": "Enhance your video viewing experience",
   "permissions": [],
   "content_scripts": [
     {
-      "matches": ["*://*.youtube.com/*"],
-      "js": ["content.js"],
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
       "run_at": "document_idle"
     }
   ]

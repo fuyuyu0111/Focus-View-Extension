@@ -23,7 +23,7 @@
     if (isAdShowing) {
       if (!isProcessingAd) {
         isProcessingAd = true;
-        console.log('[YouTube Ad Speedup] 広告を検知しました');
+        console.log('[Focus View] 広告を検知しました');
       }
 
       const video = document.querySelector('video');
@@ -53,7 +53,7 @@
         const skipButton = document.querySelector(selector);
         if (skipButton) {
           skipButton.click();
-          console.log('[YouTube Ad Speedup] スキップボタンをクリックしました');
+          console.log('[Focus View] スキップボタンをクリックしました');
           break;
         }
       }
@@ -62,7 +62,7 @@
       // 広告が終了した場合
       if (isProcessingAd) {
         isProcessingAd = false;
-        console.log('[YouTube Ad Speedup] 広告が終了しました');
+        console.log('[Focus View] 広告が終了しました');
 
         // ミュートを解除（元々ミュートでなかった場合のみ）
         const video = document.querySelector('video');
@@ -89,7 +89,7 @@
       const closeButton = document.querySelector(selector);
       if (closeButton) {
         closeButton.click();
-        console.log('[YouTube Ad Speedup] オーバーレイ広告を閉じました');
+        console.log('[Focus View] オーバーレイ広告を閉じました');
         return true;
       }
     }
@@ -118,7 +118,7 @@
           attributes: true,
           attributeFilter: ['class']
         });
-        console.log('[YouTube Ad Speedup] 監視を開始しました');
+        console.log('[Focus View] 監視を開始しました');
         // 初回チェック
         skipAd();
         closeOverlayAd();
