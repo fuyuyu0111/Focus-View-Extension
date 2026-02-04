@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Ad Speedup",
+  "version": "1.0.0",
+  "description": "YouTubeの広告を瞬間シークでスキップする",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
