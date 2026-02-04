@@ -1,4 +1,4 @@
-📖 Language: 🇯🇵 **日本語** | [🇬🇧 English](./README_EN.md)
+📖 Language:  **日本語** | [English](./README_EN.md)
 
 # Focus View Extension
 
