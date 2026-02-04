@@ -1,3 +1,5 @@
+📖 Language: 🇯🇵 **日本語** | [🇬🇧 English](./README_EN.md)
+
 # Focus View Extension
 
 YouTubeの広告を自動的にスキップするChrome拡張機能です。
