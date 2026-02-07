@@ -40,24 +40,6 @@
         }
       }
 
-      // スキップボタンがあればクリック
-      const skipButtons = [
-        '.ytp-ad-skip-button',
-        '.ytp-ad-skip-button-modern',
-        '.ytp-skip-ad-button',
-        '[class*="skip"] button',
-        'button[class*="skip"]'
-      ];
-
-      for (const selector of skipButtons) {
-        const skipButton = document.querySelector(selector);
-        if (skipButton) {
-          skipButton.click();
-          console.log('[Focus View] スキップボタンをクリックしました');
-          break;
-        }
-      }
-
     } else {
       // 広告が終了した場合
       if (isProcessingAd) {
